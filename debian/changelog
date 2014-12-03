@@ -1,0 +1,5 @@
+freertos-port-gcc-posix (6.0.4-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Oscar Aceña Herrera <oscaracena@gmail.com>  Wed, 03 Dec 2014 14:27:15 +0100

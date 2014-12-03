@@ -1,0 +1,17 @@
+Source: freertos-port-gcc-posix
+Section: devel
+Priority: optional
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Build-Depends: debhelper (>= 9.0.0)
+Standards-Version: 3.9.5
+Homepage: http://www.freertos.org/FreeRTOS-simulator-for-Linux.html
+
+Package: freertos-port-gcc-posix
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, freertos
+Description: Posix/Linux Simulator for FreeRTOS
+ This is a port that allows FreeRTOS to act as a scheduler for
+ pthreads within a process. It is designed to allow for development
+ and testing of code in a Posix environment. It is considered a
+ simulator because it will not keep real-time but it will retain the
+ same deterministic task switching.
